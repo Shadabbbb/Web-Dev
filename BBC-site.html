@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technonology- BBC News</title>
+    
+    <style>
+        #topbar{
+           
+            width: 1500px;
+            margin: 0 auto;
+            
+        
+            height: 40px;
+            
+        }
+        body{
+        margin: 0;
+        
+        font-family: Arial, Helvetica, sans-serif;
+        }
+        #logo{
+            margin-top: 8px ;
+            width: 130px;
+           margin-left: 10px;
+            float: left;
+            
+        }
+        .topbar-section{
+            float: left;
+    
+            height: 100%;
+        }
+        #signin{
+            width: 30px;
+            margin: 15px 15px;
+            float: left;
+            margin-right: 10px;
+
+        }
+        #signin-text{
+            font-weight: bold;
+            font-size:90% ;
+            width: 50%;
+            position: relative;
+            padding-right: 70px;
+            top: 22px;
+        }
+        #line{
+           float: left ;
+            height: 30px;
+            padding-right: 15px;
+            padding-left: 25px;
+            margin-top: 15px;
+
+
+        }
+        .topbar-menu {
+           font-weight: bold;
+            font-size:90% ;
+            padding: 13px  15px 0 15px;
+            height: 27px;
+            top: 10px;
+        }
+        .topbar-menu{
+            font-weight: bold;
+            font-size: 80%;
+            padding: 14px 15px 0 15px;
+            height: 27px;
+            position: relative;
+            float: left;
+        }
+        #image{
+            margin: 50px;
+            padding: 5px;
+            
+        }
+        #search-box{
+            background-color: #f8f5f5;
+            border: none;
+            height: 20px;
+            width:200px;
+            margin-right: 30px;
+            margin-left: 40px;
+            
+            font-weight: bold;
+            font-size: 14px;
+            padding: 10px;
+           margin-left: -25px;
+            margin-top: 10px;
+            float: right;
+
+
+        }
+        #searching{
+            height: 40px;
+            margin-top: 10px;
+            margin-right: 25px;
+            margin-left: 20px;            
+            float: right;
+
+        }
+        
+        #menu-bar{
+            background-color: #b10404;
+            width: 100%;
+            height: 90px; 
+               }
+        #main-menu{
+            width: 1000px;
+            margin: 10px ;
+          
+            
+        }
+        .clear{
+            clear:left ;
+        }
+        h1{        
+            padding: 5px;
+            margin: 3px;
+            color: white;
+            width: 100px;
+            font-size: 35px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+       .heading a{
+         color:white;
+          
+          margin-left: 4px;
+          margin-top: 10px;
+          
+        text-decoration: none;}
+        td{
+            color: white;
+            padding: 2px;
+            margin: 5px;
+            
+        }
+        #arrow{
+           float: right;
+        }
+
+          .heading a:hover{
+            text-decoration: underline;
+                    
+                      
+          }
+            
+          h2{
+            font-weight: normal;
+            margin-top: 10px;
+            font-size: 20px;
+            border-bottom: 2px solid #a91717;
+            width: 105px;
+          }
+          h3 a{
+            text-decoration: none;
+            margin-top: 5px;
+            font-size: 30px;
+            color: black;
+           
+            
+          }
+          h3 a:hover{
+            text-decoration: underline;
+            color: #a91717;
+          }
+           p a{
+            text-decoration: none;
+            color:#7b7979 ;
+            font-weight: normal;
+            top: 5px;
+            
+          }
+          #articl-summary{
+            position: relative;
+            margin-top:-15px;
+            margin-left: 10px;
+            color: #7b7979;
+            float: left;
+            
+          }
+          #main-article h3{
+            position: relative;
+            margin-top: 10px;
+            margin-left: 10px ;
+          }
+          #img{
+            position: relative;
+            width: 20px;
+            height: 20px;
+            margin-top: -5px;
+                    
+          }
+          #report{
+            color: black;
+           font-size: 13px;
+            text-decoration: none;
+        }
+        #report:hover {
+            text-decoration: underline;
+            color: #b10404;
+          }
+          #article-container{
+            float: left;
+            width: 650px;
+          }
+          #article{
+            width: 400px;
+            margin-top: -200px;
+            padding: 10px;
+            float: left;
+
+          }
+          #accident{
+            width: 400px;
+            margin-top:-197px ;
+            padding: 8px;
+            float: left;
+            
+          }
+          #text-container{
+            position: absolute;
+            color: white;
+            left: 40rem;
+            top: 300px;
+            width: 350px;
+            margin-left: 20px;
+            font-size: medium;            
+            padding: 20px;
+            text-decoration: none;
+            
+        }
+        #text-container:hover{
+            text-decoration: underline;
+            color: #b10404;
+        }
+        #adv{
+            padding: 3px;
+            margin: 5px;
+            width: 150px;
+            float: right;
+            margin-top: -240px;
+            margin-right: 18.2%;
+            background-color: #7b7979;
+            background-size: 3px;
+            font: normal;
+        }
+        #adv-image{
+            width: 160px;
+            height: 260px;
+            float: right;
+            margin-right: 18.1%;
+            margin-top: -220px;
+        }
+        #middle{
+            border: 1px solid #7b7979;
+            width: 100%;
+            margin-top: 140px;
+        }
+        #mercenaze{
+            width: 300px;
+            padding: 5px;
+            float: left;
+            margin-left: -240px;
+        }
+        #text2{
+            float: left;
+            margin-left: -300px;
+            color: black;    
+            font-weight: bold;   
+            width: 280px;    
+            margin-top: 170px;
+            padding: 5px;
+            text-decoration: none;
+                    }
+        #text2:hover{
+            text-decoration: underline;
+            color: #b10404;
+        }
+        #lab{
+            width: 300px;
+            margin-top:  2px;
+            margin-left: -5px;
+        }
+        #text3{ 
+            float: left;
+            margin-left: 10px;
+            width: 280px;
+            color: black;    
+            font-weight: bold;   
+            margin-top:  -5px ;
+            text-decoration: none;
+
+        }
+        #text3:hover{
+            text-decoration: underline;
+            color: #b10404;
+        }
+        #young{
+            width: 300px;
+            margin-top:  2px;
+            margin-left: -5px;
+        }
+        #text4{
+            float: left;
+            width: 300px;
+            color: black;
+            font-weight: bold;
+            padding: 3px;
+            margin-top:-13px ;
+            font: bold;
+            text-decoration: none;            
+        }
+        #text4:hover{
+            text-decoration: underline;
+            color: #b10404;
+        }
+        #negar{
+            width: 300px;
+           
+            margin-top:  2px;
+            margin-left: -17px;
+        }
+        #text5{
+            float: left;
+            width: 300px;
+            color: black;
+            font-weight: bold;
+            padding: 3px;
+            margin-top:-13px ;
+            font: bold;
+            text-decoration: none; 
+        }
+        #text5:hover{
+            text-decoration: underline;
+            color: #b10404;
+        }   
+          
+       </style>
+</head>
+<body>
+    <div id="topbar">
+        <img id="logo" src="bbc-logo.png" alt="logo">
+    <div id="signin-div" class="topbar-section"> 
+<img id="signin" src="sign-in.png" alt="sign-in">
+<span id="signin-text">Sign in</span>
+    </div>
+    <div id="line" >
+        <img src="line.png" alt="centre line" width="6px" height="30px">
+    </div>
+    <div class="topbar-section topbar-menu">
+        Home
+    </div>
+    <div class="topbar-section topbar-menu">
+        News
+    </div>
+    <div class="topbar-section topbar-menu">
+        Sports
+    </div>
+    <div class="topbar-section topbar-menu">
+        Reel
+    </div>
+    <div class="topbar-section topbar-menu">
+        Worklife
+    </div>
+    <div class="topbar-section topbar-menu">
+    Travel
+    </div>
+    <div class="topbar-section topbar-menu">
+        Future
+    </div>
+    <div class="topbar-section topbar-menu">
+        
+        Culture
+    </div>
+    
+    <div class="topbar-section topbar-menu">
+        
+        <img id="option" src="option.png" alt="option"  width="25"px>
+    </div>
+    <div class="topbar-section">
+        <input id="search-box" type=" text" value="Search BBC">
+        <input type="image"  id="searching" src="searching.png" alt="search" height="50px" width="40px">
+    </div>
+    <div class="clear"></div>
+    <div id="menu-bar">
+    <div id="main-menu">
+    <h1>NEWS</h1>
+    </div>
+    <div>
+        <table class="heading">
+            <td> <a href="">Home</a> </td>
+            <td>|</td>
+            <td> <a href=""> War in Ukraine</a></td>
+            <td>|</td>
+            <td><a href="">Coronavirus</a></td>
+            <td>|</td>         
+            <td><a href="">Climate</a></td>
+            <td>|</td>
+            <td><a href="">Video</a></td>
+            <td>|</td>
+            <td><a href="">World</a></td>
+            <td>|</td>
+            <td><a href="">Asia</a></td>
+            <td>|</td>
+            <td><a href="">UK</a></td>
+            <td>|</td>
+            <td><a href="">Business</a></td>
+            <td>|</td>
+            <td><a href="">Tech</a></td>
+            <td>|</td>
+            <td><a href="">Science</a></td>
+            <td>|</td>
+            <td><a href="">Entertainment & Arts</a></td>
+            <td>|</td>
+            <td><a href="">Health</a></td>
+            <td>|</td>
+            <td><a href="">World News TV</a></td>
+            <td>|</td>
+            <td><a href="">More</a>
+                <img id="arrow" src="arrow.png" alt="" width="15px%" height="15px">
+            </td>
+    
+        </table>
+        </div>
+    
+    </div>
+  <div class="clear"></div>
+  <div id="page-container">
+    <div id="main-article">
+      <div id="article container">
+     <h3> <a href="">Spanish <br> players in <br>boycott over <br>World Cup <br>Kiss</a></h3>
+    </div>
+    <div id="articl-summary">
+       <p>
+            <a href="">Jenni Hermosa says she did not <br> consent to the kiss from Luis <br>Rubailes which came <br>after Spain's </a>
+        </p>
+       
+       <p> <img id="img" src="clock.png" alt="clcok" > 8h | <a id="report" href="">BBC Sport</a></p>
+        
+    </div>
+    
+    <img id="article" src="kiss pic.png" alt="" >
+    
+        <img id="accident" src="accident.jpg" alt="" >
+        <h5 id="text-container">'We dangeled for 14 hours cable car survivors recall horrowing ordeal</h5>
+        </a>
+        <p id="adv">Advertisment</p>
+        <p > <a href=""><img id="adv-image" src="bbc.png" alt="" ></a></p>
+    </div>
+  </div>
+  <div id="middle"></div>
+  <section>
+    <table>
+        <tr>
+            <td><a href=""> <img id="mercenaze" src="mercenaze.png" alt=""></a>
+            <p><a id="text2" href="">Mercenaries must swear allegiance to Russia-Putin</a></p>
+            </td>
+            <td>
+                <a href=""><img id="lab" src="lab.png" alt=""></a>
+                <p><a  id="text3" href="">
+                    Fukushima: Why some scientist worry about water impact
+                </a></p>
+            </td>
+            <td>
+                <a href=""><img id="young" src="yuoung.png" alt=""></a>
+                <p><a  id="text4" href="">
+                    Young Rrepublicans in Georgia look beyond Trump        
+            </a></p>
+            </td>
+            <td>
+                <a href=""><img id="negar" src="nepal.png" alt=""></a>
+                <p><a  id="text5" href="">
+                    Niger coup: Intimidation replaces laughter on Niamey streets       
+            </a></p>
+            </td>
+        </tr>
+    </table>
+  </section>
+
+</body>
+</html> 
